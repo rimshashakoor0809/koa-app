@@ -22,7 +22,7 @@ exports.up = function (knex) {
       table.integer('author_id')
         .notNullable()
         .unsigned()
-        .references('user_id')
+        .references('id')
         .inTable('users')
         .onDelete('CASCADE');
 
