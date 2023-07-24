@@ -1,0 +1,22 @@
+{
+  "name": "koa-app",
+  "version": "1.0.0",
+  "description": "First Koa Application",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rimsha Shakoor",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "knex": "^2.5.1",
+    "koa": "^2.14.2",
+    "koa-bodyparser": "^4.4.1",
+    "koa-json": "^2.0.2",
+    "koa-router": "^12.0.0",
+    "objection": "^3.1.1",
+    "pg": "^8.11.1"
+  }
+}
